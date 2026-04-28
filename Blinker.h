@@ -5,11 +5,12 @@
     private:
         unsigned long n_volgendeBlinkON;
         unsigned long n_nu;
+        unsigned long n_startdelay
         unsigned long n_blinkInterval; 
         unsigned int  n_LEDPIN ;
     public:
     //Constructor
-    Blinker(unsigned int ledpin, unsigned long blinkInterval);
+    Blinker(unsigned int ledpin, unsigned long blinkInterval, const long startDelay = 0);
     //destructor
     ~Blinker();
 
