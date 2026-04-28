@@ -5,7 +5,7 @@ Blinker::Blinker(unsigned int ledpin, unsigned long blinkInterval, const long st
   n_LEDPIN = ledpin;
   n_blinkInterval = blinkInterval;
   n_volgendeBlinkON = n_nu;
-  n_startDelay = startDelay
+  n_startDelay = startDelay;
 
   n_nu = millis();
 }
